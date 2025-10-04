@@ -1,0 +1,1 @@
+**Task 10:** Change the **MONTHLY_RENT** column in the `LARGE_PROPERTY` table to reject `null` values.

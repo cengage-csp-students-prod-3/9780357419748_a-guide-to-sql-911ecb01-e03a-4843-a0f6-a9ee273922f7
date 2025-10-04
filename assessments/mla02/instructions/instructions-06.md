@@ -1,0 +1,1 @@
+**Task 6**: The StayWell marketing team wants to send mail to all residents. You need to return the first name and surname of all the residents combined as `NAME`, with their addresses named `ADDRESS`. However, the address should be retrieved from the `PROPERTY` table for residents.

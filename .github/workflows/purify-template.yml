@@ -1,0 +1,117 @@
+name: purify-template
+
+on:
+  pull_request:
+    types:
+      - closed
+  workflow_dispatch:
+    inputs:
+      DIRECTORY_TO_REMOVE:
+        description: "Directory to Remove"
+        default: "solution"
+      DIRECTORY_TO_CLEANSE:
+        description: "Directory to Cleanse"
+        default: "results"
+      FILE_TO_REMOVE:
+        description: "File to Remove"
+        default: "dataFiles.zip"
+
+jobs:
+  remove_directories_and_files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.TEST_FILES_AUTH  }}
+          ref: "template"
+
+      - name: Find and remove instances of ${{ github.event.inputs.DIRECTORY_TO_REMOVE }}
+        run: |
+          find . -type d -name "${{ github.event.inputs.DIRECTORY_TO_REMOVE }}" -exec rm -rf "{}" \;
+        continue-on-error: true
+
+      - name: Find and remove files inside ${{ github.event.inputs.DIRECTORY_TO_CLEANSE }} instances
+        run: |
+          find . -type d -name "${{ github.event.inputs.DIRECTORY_TO_CLEANSE }}" -exec rm -rf "{}" \;
+        continue-on-error: true
+
+      - name: Find and remove instances of ${{ github.event.inputs.FILE_TO_REMOVE }}
+        run: |
+          find . -type f -name "${{ github.event.inputs.FILE_TO_REMOVE }}" -exec rm -f {} \;
+        continue-on-error: true
+
+      - name: Commit and push removal changes to the template branch
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}"
+          git pull
+          git add .
+          git commit -m "Remove ${{ github.event.inputs.DIRECTORY_TO_REMOVE }}, files in ${{ github.event.inputs.DIRECTORY_TO_CLEANSE}}, and ${{ github.event.inputs.FILE_TO_REMOVE }}" --allow-empty
+          git push origin HEAD:template
+        if: |
+          (success() && ${{ github.event.pull_request.merged }} == true && ${{ github.event.pull_request.base.ref }} == 'template') || ${{ github.event.workflow_run.event }} == 'workflow_run'
+
+      # Check repository configurations and required files
+      - name: Check repository configuration
+        run: |
+          response=$(curl -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                          -H "Accept: application/vnd.github.v3+json" \
+                          https://api.github.com/repos/${{ github.repository }})
+
+          is_internal=$(echo $response | jq .visibility | grep -qw "internal"; echo $?)
+          is_template=$(echo $response | jq .is_template | grep -qw "true"; echo $?)
+
+          if [[ $is_internal -ne 0 || $is_template -ne 0 ]]; then
+            echo "Repository is not internal or not a template."
+            exit 1
+          fi
+
+      - name: Check required files
+        run: |
+          PREFIXES=("ex*" "de*" "dex*" "pe*" "pa*" "cs*" "cp*" "rw*" "yt*" "analyze-correct-improve*" "apply-your-knowledge*" "extend-your-knowledge*")
+          MISSING_FILES=()
+          MISSING_DIRS=()
+
+          # Find directories that include 'chapter' and iterate over them
+          for CHAPTER_DIR in $(find . -type d -name 'chapter*'); do
+            for PREFIX in "${PREFIXES[@]}"; do
+              for DIR in $(find "$CHAPTER_DIR" -maxdepth 1 -type d -name "$PREFIX"); do
+                INSTRUCTIONS_PATH="${DIR}/instructions/instructions-summary.md"
+                STUDENT_DIR_PATH="${DIR}/student"
+
+                if [ ! -f "$INSTRUCTIONS_PATH" ]; then
+                  MISSING_FILES+=("$INSTRUCTIONS_PATH")
+                fi
+
+                if [ ! -d "$STUDENT_DIR_PATH" ]; then
+                  MISSING_DIRS+=("$STUDENT_DIR_PATH")
+                fi
+              done
+            done
+          done
+
+          if [ ${#MISSING_FILES[@]} -ne 0 ] || [ ${#MISSING_DIRS[@]} -ne 0 ]; then
+            echo "Missing files:"
+            printf '%s\n' "${MISSING_FILES[@]}"
+            echo "Missing directories:"
+            printf '%s\n' "${MISSING_DIRS[@]}"
+          fi
+
+          required_files=("settings.json" ".devcontainer/mindtap/devcontainer.json")
+          missing_files=0
+
+          for file in "${required_files[@]}"; do
+            if [[ ! -f "$file" ]]; then
+              echo "$file does not exist."
+              missing_files=1
+            fi
+          done
+
+          if [[ $missing_files -eq 1 ]] || [ ${#MISSING_FILES[@]} -ne 0 ] || [ ${#MISSING_DIRS[@]} -ne 0 ]; then
+            echo "Some required files are missing."
+            exit 1
+          fi
+
+          echo "All required files and directories exist."

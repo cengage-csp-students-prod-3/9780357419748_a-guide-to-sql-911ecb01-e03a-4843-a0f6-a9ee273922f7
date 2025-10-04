@@ -1,0 +1,1 @@
+**Task 12:** Find the service ID and property ID for each service request whose estimated hours are greater than the number of estimated hours of at least one service request on which the category number is **5**.

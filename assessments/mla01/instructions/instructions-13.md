@@ -1,0 +1,1 @@
+**Task 8**: StayWell’s finance department wants to calculate the number of spent hours on each category of services. They require this data to calculate the payments to each service team. You need to collect this information from all the service requests in the database. Output two columns, the category number as **CATEGORY_NUMBER**, and the spent hours as **HOURS_SPENT**.

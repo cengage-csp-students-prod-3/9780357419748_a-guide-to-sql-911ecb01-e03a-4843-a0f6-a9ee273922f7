@@ -1,0 +1,1 @@
+**Task 2:** Insert into the `LARGE_PROPERTY` table the office number, address, bedrooms, floors, monthly rent, and owner number from the `PROPERTY` table whose square footage is greater than **1,500** square feet.

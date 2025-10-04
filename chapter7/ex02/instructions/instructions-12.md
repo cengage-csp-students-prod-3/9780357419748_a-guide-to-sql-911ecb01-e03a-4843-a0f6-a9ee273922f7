@@ -1,0 +1,1 @@
+**Task 12:** Users **Johnson** and **Klein** must be able to change the monthly rent of any property.

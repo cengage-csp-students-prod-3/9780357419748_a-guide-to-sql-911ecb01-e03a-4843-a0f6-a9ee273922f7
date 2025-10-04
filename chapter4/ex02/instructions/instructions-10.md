@@ -1,0 +1,1 @@
+**Task 10:** Labor is billed at the rate of **$35** per hour. List the property ID, category number, estimated hours, and estimated labor cost for every service request. To obtain the estimated labor cost, multiply the estimated hours by **35**. Use the column name **ESTIMATED_COST** for the estimated labor cost.

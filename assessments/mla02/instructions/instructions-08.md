@@ -1,0 +1,1 @@
+**Task 8**: The Colombia City office of StayWell indicated that there is a new tenant by the name of **Yigit Yilmaz** staying at the property with an ID of **13**. You need to include this new resident in the `RESIDENTS` table.

@@ -1,0 +1,1 @@
+**Task 2:** For each invoice placed on **November 15, 2021**, list the invoice number along with the ID, first name, and last name of the customer for which the invoice was created.

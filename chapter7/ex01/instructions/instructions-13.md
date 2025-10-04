@@ -1,0 +1,1 @@
+**Task 13:** Write the command to display only tables within the system catalog that have the `KimTay` `TABLE_SCHEMA` and are of the type `BASE TABLE`. Display only the following columns: `TABLE_SCHEMA`, `TABLE_NAME`, `TABLE_TYPE`.

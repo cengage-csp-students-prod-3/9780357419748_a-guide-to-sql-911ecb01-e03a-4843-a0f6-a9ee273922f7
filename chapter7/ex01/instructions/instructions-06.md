@@ -1,0 +1,1 @@
+**Task 6:** Repeat *Task 5* without using the `ITEM_INVOICE` `VIEW` to retrieve the item ID, description, price, invoice number, invoice date, quantity, and quoted price for all items with a quoted price that exceed **$100**.

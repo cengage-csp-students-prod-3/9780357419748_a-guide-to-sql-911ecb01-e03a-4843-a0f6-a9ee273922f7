@@ -1,0 +1,1 @@
+**Task 6**: The StayWell Property Management team considers creating a discount scheme for the property owners with more than one property in the system. You will need to provide all the owner IDs (`OWNER_NUM`) and the count of properties of the owners with more than one active property in the database. The output columns should be **OWNER_NUM** and **COUNT(\*)** respectively.

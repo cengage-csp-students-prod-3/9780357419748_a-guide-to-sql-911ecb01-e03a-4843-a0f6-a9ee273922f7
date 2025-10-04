@@ -1,0 +1,1 @@
+**Task 3:** Without using the `SMALL_PROPERTY` `VIEW`, retrieve the office number, property ID, and monthly rent for every property whose square footage is less than **1,250** square feet and a monthly rent of **$1150** or less.

@@ -1,0 +1,1 @@
+**Task 8:** Add a column named **ON_HAND_VALUE** to the `NONCAT` table. The on-hand value is a seven-digit number with two decimal places that represents the product of the number of units on hand and the price. Then set all values of `ON_HAND_VALUE` to **ON_HAND** \* **PRICE**.

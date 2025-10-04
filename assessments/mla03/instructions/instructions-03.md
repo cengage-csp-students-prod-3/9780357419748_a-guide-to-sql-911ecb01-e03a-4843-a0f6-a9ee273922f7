@@ -1,0 +1,1 @@
+**Task 3**: The property management team wants to continue property database operations by using the common `PROPERTY` table. Therefore, they no longer require the `COLOMBIA_CITY_PROPERTY` `VIEW`, and they want you to remove it from the database.

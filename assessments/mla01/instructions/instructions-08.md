@@ -1,0 +1,1 @@
+**Task 5**: Owner Sims Haydon contacted the Colombia City (ID: 1) office and informed them that the monthly rent of his property at **Kent Drive** should be **$1500**. Unfortunately, he did not remember the street number of the property during the call. You need to update the corresponding data in the database with the provided data.

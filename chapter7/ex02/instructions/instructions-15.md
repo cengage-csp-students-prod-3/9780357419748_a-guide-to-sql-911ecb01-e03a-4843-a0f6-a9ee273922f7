@@ -1,0 +1,1 @@
+**Task 15:** User **Adams** must be able to create an index on the `SERVICE_REQUEST` table.

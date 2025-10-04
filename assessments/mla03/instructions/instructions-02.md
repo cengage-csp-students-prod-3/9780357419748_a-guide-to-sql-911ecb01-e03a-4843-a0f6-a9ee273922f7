@@ -1,0 +1,1 @@
+**Task 2**: Colombia office employees started using `COLOMBIA_CITY_PROPERTY` and they want to update the `MONTHLY_RENT` to **1200** for properities where their `PROPERTY_ID` equals to **1**. You need to update the rent information over the `VIEW`.

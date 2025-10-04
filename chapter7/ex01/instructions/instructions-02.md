@@ -1,0 +1,1 @@
+**Task 2:** Write and execute the command to retrieve the customer ID, first name, and last name of each customer in the `MAJOR_CUSTOMER` `VIEW` with a balance that exceeds the credit limit.

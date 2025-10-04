@@ -1,0 +1,2 @@
+**Task 9**: StayWell’s maintenance team is working on the staffing plan for the month of November 2019 including number of people required in the upcoming month. They need all the service requests with the category of **Plumbing** (category number **1**) and **Heating** (category number **2**), and the next service date within **November 2019**. You need to collect this information from service requests and send it to the team.
+

@@ -1,0 +1,1 @@
+**Task 18:** Delete the index named `ITEM_INDEX3`.

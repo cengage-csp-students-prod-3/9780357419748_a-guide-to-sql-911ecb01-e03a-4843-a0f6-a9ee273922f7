@@ -1,0 +1,1 @@
+**Task 5:** Write and execute the command to retrieve the item ID, description, invoice number, and quoted price for all invoices in the `ITEM_INVOICE` `VIEW` for items with a quoted prices that exceed **$100**.

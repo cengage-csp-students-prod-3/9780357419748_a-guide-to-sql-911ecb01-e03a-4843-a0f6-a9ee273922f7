@@ -1,0 +1,1 @@
+**Task 11:** Create the `UPD_COMMISSION_TRIG` trigger to add the difference between the new balance and the old balance multiplied by the sales rep’s commission rate to the commission for the corresponding sales rep when updating a customer.

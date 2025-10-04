@@ -1,0 +1,1 @@
+**Task 2**: StayWell’s maintenance team wants to recheck the apartments that had plumbing service requests beforehand. You will need to return all the property IDs and the addresses of the properties that had plumbing service request (`CATEGORY_NUMBER` **1**).

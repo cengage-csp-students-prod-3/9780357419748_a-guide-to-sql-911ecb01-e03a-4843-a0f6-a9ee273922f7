@@ -1,0 +1,1 @@
+**Task 7:** For each invoice, list the invoice number, invoice date, item ID, description, and category for each item that makes up the invoice.

@@ -1,0 +1,1 @@
+> Office and owner information are both available at `PROPERTY` table; however, it is possible for owners to have multiple properties. You only need to count `DISTINCT` owners in the database for sending gifts.

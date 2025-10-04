@@ -1,0 +1,1 @@
+**Task 5:** Write and execute the command to retrieve all information for a property for every property in the `PROPERTY_OWNERS` view with a monthly rent of less than **$1675**.

@@ -1,0 +1,1 @@
+**Task 10:** List the office number, address, and monthly rent for properties whose owners live in Washington State and own a two-bedroom property.

@@ -1,0 +1,1 @@
+**Task 5**: The marketing team wants to print out branded name tags for the properties with the StayWell logo and resident names. They require the first and last names of the residents combined and converted to **uppercase** for printing. You need to send them a single-column table with the column name of `LABEL`.

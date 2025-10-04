@@ -1,0 +1,1 @@
+**Task 10:** User **Oliver** must be able to retrieve data from the `PROPERTY` table.

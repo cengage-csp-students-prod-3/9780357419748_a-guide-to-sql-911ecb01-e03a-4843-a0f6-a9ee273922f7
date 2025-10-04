@@ -1,0 +1,1 @@
+**Task 7:** List the square footage, owner number, owner last name, and owner first name for each property managed by the StayWell-Columbia City office.

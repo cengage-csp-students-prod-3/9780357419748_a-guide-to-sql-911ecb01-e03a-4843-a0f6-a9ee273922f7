@@ -1,0 +1,1 @@
+**Task 3:** For each invoice, list the invoice number, invoice date, item ID, quantity ordered, and quoted price for each invoice line that makes up the invoice.

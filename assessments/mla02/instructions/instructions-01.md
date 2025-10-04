@@ -1,0 +1,1 @@
+**Task 1**: The StayWell Property Management team wants a list of all property addresses combined with the name of the owners. You will need to return three columns: the first name as **FIRST_NAME**, the last name as **LAST_NAME**, and the property address as **ADDRESS** of the owners.

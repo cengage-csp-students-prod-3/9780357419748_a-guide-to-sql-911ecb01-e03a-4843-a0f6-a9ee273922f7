@@ -1,0 +1,1 @@
+**Task 8:** Write and execute the command to retrieve the average square footage and average monthly rent for each property for which the average monthly rent is greater than **$1,400**.

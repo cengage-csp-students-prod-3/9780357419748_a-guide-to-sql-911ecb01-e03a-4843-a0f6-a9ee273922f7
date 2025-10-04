@@ -1,0 +1,1 @@
+**Task 3**: The StayWell development team started working on developing backend systems for property management. They requested to know how the data for the properties are kept on the database with data types and limitations. You need to gather information from database and send it to the development team.

@@ -1,0 +1,1 @@
+**Task 9:** Use a sub-query to find the sales rep ID, first name, and last name of each sales rep who represents at least one customer with a credit limit of **$500**. List each sales rep only once in the results.

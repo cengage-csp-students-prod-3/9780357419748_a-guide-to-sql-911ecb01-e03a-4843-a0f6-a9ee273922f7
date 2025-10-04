@@ -1,0 +1,1 @@
+**Task 8**: The development team of StayWell wants to ensure that all the `STATE` fields of the owners are uppercase in the database. Create the `state_insert` trigger prior to incorporation in the `OWNER` table to ensure that this requirement is satisfied.

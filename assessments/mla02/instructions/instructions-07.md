@@ -1,0 +1,1 @@
+**Task 7**: The development team wants to add new residents and new service requests to StayWell without checking the latest IDs and manually incrementing it. Therefore, you need to alter the `RESIDENTS` table and change the `RESIDENT_ID` field to an auto-incremented field of type `SMALLINT`.

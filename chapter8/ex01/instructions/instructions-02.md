@@ -1,0 +1,1 @@
+**Task 2:** List the customer ID and first and last names for all customers located in the city of **Cody**. Your query should ignore case. For example, a customer with the city **Cody** should be included, as should customers whose city is **CODY**, **cody**, **cOdY**, and so on.

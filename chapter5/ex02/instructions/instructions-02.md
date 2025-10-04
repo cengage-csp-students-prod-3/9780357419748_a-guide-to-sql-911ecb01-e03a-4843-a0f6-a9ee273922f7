@@ -1,0 +1,1 @@
+**Task 2:** For every completed or open service request, list the property ID, description, and status.

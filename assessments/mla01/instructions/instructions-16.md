@@ -1,0 +1,1 @@
+**Task 10**: StayWell’s marketing team requested the largest three properties currently in the system. You need to sort the properties by square foot information and get the top three for the marketing team.

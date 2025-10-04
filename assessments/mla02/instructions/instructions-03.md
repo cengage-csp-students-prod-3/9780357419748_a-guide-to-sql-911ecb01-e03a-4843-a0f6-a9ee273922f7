@@ -1,0 +1,1 @@
+**Task 3**: The StayWell property management team wants to get in touch with those owners having properties larger than **2,000** square feet. You need to return all the available information of the corresponding owners to the property management team.

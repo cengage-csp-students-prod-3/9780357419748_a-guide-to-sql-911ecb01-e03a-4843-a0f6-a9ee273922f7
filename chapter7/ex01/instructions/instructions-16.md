@@ -1,0 +1,1 @@
+**Task 16:** Create an index named `ITEM_INDEX3` on the `CATEGORY` and `LOCATION` columns in the `ITEM` table.

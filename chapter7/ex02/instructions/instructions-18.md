@@ -1,0 +1,1 @@
+**Task 18:** Revoke all privileges from user **Adams**.

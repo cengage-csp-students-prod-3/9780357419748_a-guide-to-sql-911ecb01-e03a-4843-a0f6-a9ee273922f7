@@ -1,0 +1,1 @@
+**Task 20:** List every column in the `ITEM` table and its associated data type.

@@ -1,0 +1,1 @@
+**Task 8:** Using the `INVOICE_TOTAL` `VIEW` write and execute the command to retrieve the invoice number and invoice total for only those orders totaling more than **$250**.

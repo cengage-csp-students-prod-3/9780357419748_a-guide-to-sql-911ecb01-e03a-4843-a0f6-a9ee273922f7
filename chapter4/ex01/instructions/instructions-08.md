@@ -1,0 +1,1 @@
+**Task 8:** List the item ID, description, and on-hand value (units on hand \* unit price) of each item in category `CAT`. (On-hand value is technically units on hand \* cost, but there is no `COST` column in the `ITEM` table). Assign the name **ON_HAND_VALUE** to the computed column.

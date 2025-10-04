@@ -1,0 +1,1 @@
+**Task 7**: The maintenance team wants to send SMS reminders in relation to upcoming service operations. Therefore, they request the `SERVICE_ID` 1 day prior to the planned service dates of the service requests as the `REMINDER` column. However, they only require this information for those service requests where the `NEXT_SERVICE_DATE` is set.

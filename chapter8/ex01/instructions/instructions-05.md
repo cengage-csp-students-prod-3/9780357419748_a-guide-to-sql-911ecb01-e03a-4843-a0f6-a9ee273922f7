@@ -1,0 +1,1 @@
+**Task 5:** Create the `GET_CREDIT_LIMIT` procedure to obtain the full name and credit limit of the customer whose ID currently is stored in `I_CUST_ID`. Place these values in the variables `I_CUSTOMER_NAME` and `I_CREDIT_LIMIT`, respectively. When the procedure is called it should output the contents of `I_CUSTOMER_NAME` and `I_CREDIT_LIMIT`.

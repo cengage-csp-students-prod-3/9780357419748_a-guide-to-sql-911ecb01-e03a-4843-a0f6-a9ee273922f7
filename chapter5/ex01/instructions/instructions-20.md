@@ -1,0 +1,1 @@
+**Task 20:** Repeat *Task 18* using the `ANY` operator. 

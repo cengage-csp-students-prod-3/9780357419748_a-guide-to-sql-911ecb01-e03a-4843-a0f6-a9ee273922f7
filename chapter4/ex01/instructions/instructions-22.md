@@ -1,0 +1,1 @@
+**Task 22:** KimTay Pet Supplies is considering discounting the price of all items by **10** percent. List the item ID, description, price, and discounted price for all items. Use **DISCOUNTED_PRICE** as the name for the computed column.

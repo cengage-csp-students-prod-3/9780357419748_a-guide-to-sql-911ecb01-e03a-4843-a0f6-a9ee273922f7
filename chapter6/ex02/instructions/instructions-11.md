@@ -1,0 +1,1 @@
+**Task 11:** Delete the `LARGE_PROPERTY` table from the database.

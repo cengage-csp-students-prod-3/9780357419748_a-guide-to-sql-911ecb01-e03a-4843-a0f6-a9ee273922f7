@@ -1,0 +1,1 @@
+**Task 6**: The property management team wants to learn and track the average size of the properties in StayWell. You need to return the average square feet of each property, calculated and rounded to an integer value, displayed as **AVG_SQUARE_FEET**.

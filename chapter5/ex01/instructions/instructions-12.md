@@ -1,0 +1,1 @@
+**Task 12:** List the item ID, description, and category for each pair of items that are in the same category. (For example, one such pair would be item FS42 and item PF19, because the category for both items is FSH.) Order the output by category.

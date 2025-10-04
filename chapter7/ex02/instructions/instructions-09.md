@@ -1,0 +1,1 @@
+**Task 9:** Without using the `MONTHLY_RENTS` `VIEW`, write and execute the command to retrieve the average square footage and average monthly rent for each property for which the average monthly rent is less than **$1,400**.

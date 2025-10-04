@@ -1,0 +1,1 @@
+**Task 6:** Repeat *Task 5* without using the `PROPERTY_OWNERS` `VIEW`. 

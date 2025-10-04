@@ -1,0 +1,1 @@
+**Task 5:** Repeat *Task 4*, but this time use the `EXISTS` operator in your answer.

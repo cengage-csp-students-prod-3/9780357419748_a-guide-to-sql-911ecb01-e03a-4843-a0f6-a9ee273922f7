@@ -1,0 +1,1 @@
+**Task 3:** StayWell has increased the monthly rent of each large property by **$150**. Update the monthly rents in the `LARGE_PROPERTY` table accordingly.

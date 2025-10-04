@@ -1,0 +1,1 @@
+**Task 18:** List the item ID, description, unit price, and category for each item that has a unit price greater than the unit price of every item in category `CAT`. Use the `ALL` operator in your query.

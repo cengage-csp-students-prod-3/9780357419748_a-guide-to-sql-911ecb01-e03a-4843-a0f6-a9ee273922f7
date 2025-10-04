@@ -1,0 +1,1 @@
+**Task 2:** List the owner number and last name for all owners located in the city of Seattle. Your query should ignore case. For example, a customer with the city Seattle should be included, as should customers whose city is SEATTLE, SEAttle, SeAttle, and so on.

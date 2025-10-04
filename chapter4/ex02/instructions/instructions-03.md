@@ -1,0 +1,1 @@
+**Task 3:** List the last name and first name of every owner who lives in Seattle.

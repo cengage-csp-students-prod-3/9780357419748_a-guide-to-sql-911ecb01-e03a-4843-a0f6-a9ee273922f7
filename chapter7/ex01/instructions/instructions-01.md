@@ -1,0 +1,1 @@
+**Task 1:** Create a `VIEW` named `MAJOR_CUSTOMER`. It consists of the customer ID, first name, last name, balance, credit limit, and rep ID for every customer whose credit limit is **$500** or less.

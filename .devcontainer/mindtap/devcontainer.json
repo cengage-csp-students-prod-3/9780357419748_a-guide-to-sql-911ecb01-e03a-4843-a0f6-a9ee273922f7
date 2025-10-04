@@ -1,0 +1,34 @@
+{
+  "name": "MindTap",
+  "image": "ghcr.io/internal-csp-hes-engineering/container-images:sqlcodespace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "cengage.cengage-companion",
+        "ms-vsliveshare.vsliveshare",
+        "inferrinizzard.prettier-sql-vscode",
+        "joe-re.sql-language-server"
+      ],
+      "settings": {
+        "settingsSync.enable": false,
+        "workbench.colorTheme": "Default Dark Modern",
+        "extensions.ignoreRecommendations": true,
+        "git.openRepositoryInParentFolders": "never",
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "inferrinizzard.prettier-sql-vscode",
+        "sqlLanguageServer.lint": {
+          "rules": {}
+        }
+      }
+    }
+  },
+  "forwardPorts": [3005],
+  "portsAttributes": {
+    "3005": {
+      "label": "cengage-companion",
+      "onAutoForward": "silent"
+    }
+  },
+  "postCreateCommand": "sudo service mysql start && sudo mysql -u root -e \"ALTER USER 'root'@'localhost' IDENTIFIED WITH 'mysql_native_password' BY 'root';\"",
+  "postStartCommand": "sudo service mysql start"
+}

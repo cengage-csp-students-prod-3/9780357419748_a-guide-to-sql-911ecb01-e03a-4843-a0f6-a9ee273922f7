@@ -1,0 +1,1 @@
+**Task 17:** Create an index named `ITEM_INDEX4` on the `CATEGORY` and `LOCATION` columns in the `ITEM` table. List categories in descending order.

@@ -1,0 +1,1 @@
+**Task 5:** List the `OFFICE_NUM` as the **LOCATION_NUMBER** and `PROPERTY_ID` as the **UNIT_NUMBER** for every property whose square footage is equal to or less than **1,400** square feet.

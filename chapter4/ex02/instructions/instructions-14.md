@@ -1,0 +1,1 @@
+**Task 14:** Calculate the total value of monthly rents for all properties, display this value in a column labeled **TOTAL_VALUE**. 

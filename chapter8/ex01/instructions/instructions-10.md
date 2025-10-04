@@ -1,0 +1,1 @@
+**Task 10:** Create the `ADD_COMMISSION_TRIG` trigger to add the customer’s balance multiplied by the sales rep’s commission rate to the commission for the corresponding sales rep when adding a new customer.

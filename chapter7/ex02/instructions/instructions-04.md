@@ -1,0 +1,1 @@
+**Task 4:** Create a view named `PROPERTY_OWNERS`. It consists of the property ID, office number, square footage, bedrooms, floors, monthly rent, and owner’s last name for every property in which the number of bedrooms is **three**.

@@ -1,0 +1,1 @@
+**Task 4:** After increasing the monthly rent of each large property by **$150** in _Task 3_, StayWell decides to decrease the monthly rent of any property whose monthly rent is more than **$1750** by **1%**. Update the monthly rents in the `LARGE_PROPERTY` table accordingly.

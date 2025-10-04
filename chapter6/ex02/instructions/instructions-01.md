@@ -1,0 +1,1 @@
+**Task 1:** Create a `LARGE_PROPERTY` table with the structure shown below. 

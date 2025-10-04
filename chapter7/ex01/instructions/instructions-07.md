@@ -1,0 +1,1 @@
+**Task 7:** Create a view named `INVOICE_TOTAL`. It consists of the invoice number and invoice total for each invoice currently on file. (The invoice total is the sum of the number of units ordered multiplied by the quoted price on each invoice line for each invoice.) Sort the rows by invoice number. Use **TOTAL_AMOUNT** as the name for the invoice total.

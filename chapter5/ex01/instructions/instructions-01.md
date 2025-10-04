@@ -1,0 +1,1 @@
+**Task 1:** For each invoice, list the invoice number and invoice date along with the ID, first name, and last name of the customer for which the invoice was created.

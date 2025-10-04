@@ -1,0 +1,1 @@
+**Task 14:** User **Klein** must be able to add and delete service categories.

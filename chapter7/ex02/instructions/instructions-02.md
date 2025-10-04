@@ -1,0 +1,1 @@
+**Task 2:** Write and execute the command to retrieve the office number, property ID, and monthly rent for every property in the `SMALL_PROPERTY` view with a monthly rent of **$1150** or more. 

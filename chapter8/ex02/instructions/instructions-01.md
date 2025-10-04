@@ -1,0 +1,1 @@
+**Task 1:** List the owner number, the owner's first name as **FIRST** and the owner's last name as **LAST** for all owners. The first name should appear in uppercase letters and the last name should appear in lowercase letters.

@@ -1,0 +1,1 @@
+**Task 12:** Create the `DEL_COMMISSION_TRIG` trigger to subtract the balance multiplied by the sales rep’s commission rate from the commission for the corresponding sales rep when deleting a customer.

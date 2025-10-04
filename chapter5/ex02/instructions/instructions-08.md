@@ -1,0 +1,1 @@
+**Task 8:** Repeat *Task 7*, but this time include only those properties with three bedrooms.

@@ -1,0 +1,1 @@
+**Task 3:** StayWell is offering a monthly discount for residents who pay their rent on a quarterly basis. The discount is **1.75** percent of the monthly fee. For each property, list the office number, address, owner number, owner’s last name, monthly rent, and discount as **DISCOUNT**. The discount should be rounded to the nearest dollar.

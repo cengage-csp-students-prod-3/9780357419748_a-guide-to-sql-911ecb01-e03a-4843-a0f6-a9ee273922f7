@@ -1,0 +1,1 @@
+**Task 4**: The property management team wants to ensure that the property and owner information always correspond. In other words, they do not want any property in the database where the `OWNER_NUM` information does not match with anyone in the `OWNER` table. You need to alter the `PROPERTY` table by changing the `OWNER_NUM` field to refer to the `OWNER` table.

@@ -1,0 +1,1 @@
+**Task 1:** Create a view named `SMALL_PROPERTY`. It consists of the property ID, office number, bedrooms, floor, monthly rent, and owner number for every property whose square footage is less than **1,250** square feet.
