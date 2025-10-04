@@ -1,4 +1,9 @@
 {
   "language": "mysql",
-  "restrictedFiles": [".setup.sql"]
+  "gui": false,
+  "shell": false,
+  "restrictedFiles": [
+    ".setup.sql"
+  ],
+  "isFirstTimeSetup": false
 }
