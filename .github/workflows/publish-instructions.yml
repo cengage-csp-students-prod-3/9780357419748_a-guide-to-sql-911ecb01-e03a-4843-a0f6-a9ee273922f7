@@ -1,0 +1,12 @@
+name: Publish Instructions
+on:
+  pull_request:
+    types: [closed]
+    branches: [template]
+  workflow_dispatch:
+
+jobs:
+  publish:
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
+    uses: internal-CSP-HES-engineering/companion-test-runners/.github/workflows/publish-instructions.yml@main
+    secrets: inherit
